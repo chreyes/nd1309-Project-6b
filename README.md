@@ -24,6 +24,9 @@ Dapp with ganache-cli working as expected:
 ![ganache-cli](images/ganache_cli.png)
 
 
-After several attemps, can't deploy to public network as described in Knownledge:
+After several attemps, can't deploy completly to goerli public network as described in Knowledge:
 
 https://knowledge.udacity.com/questions/922199
+
+Goerli contract address(partial): 0xe22c7020a62a434fd0dc865bc878a40221e28321
+Account address: 0x608fb40021b0AcC92cC3fA5595a9c2b3a093Efe6
