@@ -1,8 +1,8 @@
-const HDWalletProvider = require("@truffle/hdwallet-provider");
-const infuraKey = "1dede18da4a8445b9df425b65543ba21";
+// const HDWalletProvider = require("@truffle/hdwallet-provider");
+// const infuraKey = "1dede18da4a8445b9df425b65543ba21";
 
 //mnemonic deleted
-const mnemonic = "";
+// const mnemonic = "";
 
 module.exports = {
   networks: {
@@ -11,18 +11,18 @@ module.exports = {
       port: 8545,
       network_id: "*" // Match any network id
     },
-    goerli: {
-      networkCheckTimeout: 10000,
-      provider: () => new HDWalletProvider(mnemonic, `https://goerli.infura.io/v3/${infuraKey}`),
-      network_id: 5,       // goerli's id
-      // gas: 4465030,        // goerli has a lower block limit than mainnet
-      // gasPrice: 10000000000
-      // gas and gasPrice commented because of this:
-      // "FarmerRole" -- VM Exception while processing transaction: Transaction's maxFeePerGas (10992342) is less than the block's baseFeePerGas (28116044110) (vm hf=london -> block -> tx) -- Reason given: Custom error (could not decode)..
-    },
-    mocha: {
-      // timeout: 100000
-    },
+    // goerli: {
+    //   networkCheckTimeout: 10000,
+    //   provider: () => new HDWalletProvider(mnemonic, `https://goerli.infura.io/v3/${infuraKey}`),
+    //   network_id: 5,       // goerli's id
+    //   // gas: 4465030,        // goerli has a lower block limit than mainnet
+    //   // gasPrice: 10000000000
+    //   // gas and gasPrice commented because of this:
+    //   // "FarmerRole" -- VM Exception while processing transaction: Transaction's maxFeePerGas (10992342) is less than the block's baseFeePerGas (28116044110) (vm hf=london -> block -> tx) -- Reason given: Custom error (could not decode)..
+    // },
+    // mocha: {
+    //   // timeout: 100000
+    // },
     // Configure your compilers
     compilers: {
       solc: {
