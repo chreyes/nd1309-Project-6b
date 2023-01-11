@@ -26,7 +26,7 @@ IPFS : not used.
 
 The instructions are separated to run this repo locally and remote.
 
-# Run local
+# Steps to run locally the dapp
 
 To run this dapp locally we need node lts (v18.13.0), ganache-cli, Truffle and enabled MetaMask extension in the browser; after cloning this repo:
 
@@ -200,6 +200,8 @@ That's all to make run the dapp locally.
 Dapp with ganache-cli working as expected:
 
 ![ganache-cli](images/ganache_cli.png)
+
+# Steps to run remotely the dapp
 
 To attemp to deploy to goerli i have tried cloning again the repo, with the latest version of truffle:
 
